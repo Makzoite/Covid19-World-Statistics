@@ -6,7 +6,7 @@
 **What helped me?**
 
 - ReactJS
-- npm package chart-race-react
+- npm package chart-race-react (https://www.npmjs.com/package/chart-race-react)
 - NOVELCovid/API (https://corona.lmao.ninja/)
 - News API (https://newsapi.org/)
 ---
