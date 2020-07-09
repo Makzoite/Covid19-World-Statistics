@@ -1,0 +1,98 @@
+.button-style{
+    margin: 4px;
+    height: 30px;
+    width: 100px;
+  }
+  .chart-margin{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    
+  }
+  .bar-chart{
+    border: 2px solid #000000;
+  }
+  @media screen and (min-width: 300px) {
+    .title-font {
+       font-size: 12px;
+       padding-left: 5px;
+       white-space: nowrap;
+    }
+    .chart-border{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border: 0px;
+      width: 92%;
+    }
+    .fontSizeAuto{
+      font-size: 12px;
+    }
+    .heading-topic{
+      font-size: 30px;
+    }
+    .updated-date{
+      font-size: 12px;
+      padding: 16px;
+    }
+  }
+  @media screen and (min-width: 600px) {
+    .title-font {
+       font-size: 22px;
+       padding-left: 16px;
+       white-space: nowrap;
+    }
+    .chart-border{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border: 1.2px solid #5F5F5F;
+      width: 85%;
+    }
+    .fontSizeAuto{
+      font-size: 22px;
+    }
+    .heading-topic{
+      font-size: 40px;
+    }
+    .updated-date{
+      font-size: 16px;
+      padding: 16px;
+    }
+  }
+  .heading-topic{
+      font-weight: bold;
+      color: #292929;
+  }
+  
+  .watermark{
+    position:absolute;
+      z-index:999999;
+      bottom: 30%;
+      left: 50%;
+  
+  }
+  .topic-style{
+    font-size: 20px;
+  }
+  .topic-style-count{
+    font-weight: bold;
+    font-size: 45px;
+  }
+  
+  .horizontal-line{
+    height: 1px;
+    margin: 10px 0 6px 0;
+    border-radius: 3px;
+    background-color: grey;
+  }
+  
+  .counter-box{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    margin: 16px;
+  }
+  .row-padding{
+    padding: 0 40px;
+  }
+
+  .flag{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 120px;
+    height: 75px;
+  }

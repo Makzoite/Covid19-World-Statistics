@@ -1,0 +1,21 @@
+@media screen and (min-width: 300px) {
+    .scroll-message{
+        display: block;
+        text-align: center;
+        color: cornflowerblue;
+        font-size: 10px;
+        animation:blinkingText 1.2s infinite;
+    }
+}
+@media screen and (min-width: 1350px) {
+    .scroll-message{
+        display: none;
+    }
+}
+@keyframes blinkingText{
+    0%{     color: cornflowerblue;    }
+    49%{    color: cornflowerblue; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: cornflowerblue;    }
+}
